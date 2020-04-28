@@ -56,7 +56,6 @@
     function Rand(MaxValue, MinValue) {
 		    return Math.round(Math.random() * (MaxValue - MinValue) + MinValue);
 	  }
-    //esempio push
     function Random(){
       var colorArr = ['red','red','green','green','blue','blue','yellow','yellow','cyan','cyan','purple','purple'];
       for (var i=0; i<12; i++){
